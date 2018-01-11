@@ -1,0 +1,46 @@
+{
+    "name": "guix77/oauth2-steemconnect",
+    "description": "Steemconnect API v2 OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Duveau",
+            "email": "guillaume.duveau@gmail.com",
+            "homepage": "https://guillaumeduveau.com"
+        }
+    ],
+    "keywords": [
+        "steemconnect",
+        "steem",
+        "steemit",
+        "blockchain",
+        "php",
+        "api",
+        "oauth",
+        "oauth2",
+        "client"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
