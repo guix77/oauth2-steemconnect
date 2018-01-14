@@ -17,7 +17,7 @@ To install, use composer:
 
 Usage is the same as The League's OAuth client, using `\League\OAuth2\Client\Provider\Steemconnect` as the provider.
 
-### Authorization code flow
+### Authorization Code Flow
 
 ```php
 $provider = new League\OAuth2\Client\Provider\Steemconnect([
