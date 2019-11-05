@@ -16,14 +16,14 @@ class Steemconnect extends AbstractProvider
      *
      * @var string
      */
-    public $domain = 'https://v2.steemconnect.com';
+    public $domain = 'https://steemconnect.com';
 
     /**
      * Api domain
      *
      * @var string
      */
-    public $apiDomain = 'https://v2.steemconnect.com/api';
+    public $apiDomain = 'https://steemconnect.com/api';
 
     /**
      * A list of all scopes available in the Steemconnect API v2.
